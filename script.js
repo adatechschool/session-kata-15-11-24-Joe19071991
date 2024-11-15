@@ -44,3 +44,8 @@ function translateLatinCharacter(character) {
   }
 }
 console.log(translateLatinCharacter("A"));
+
+function encode(text) {
+  /* le but de l'étape 3 sera de rentrer un mot qui se transformera en tableau avec chaque caractère en utilisant la fonction 1
+  puis d'afficher son morse en utilisant la fonction 2, ne pas oublier de convertir le miniscule du texte en majuscule pour avoir accès au morse  */
+}
