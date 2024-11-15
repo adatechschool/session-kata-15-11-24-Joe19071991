@@ -34,3 +34,13 @@ const latinToMorse = {
   Y: "-.--",
   Z: "--..",
 };
+
+function translateLatinCharacter(character) {
+  for (const [key, value] of Object.entries(latinToMorse)) {
+    console.log(`${key}: ${value}`);
+    if (character === key) {
+      return value;
+    }
+  }
+}
+console.log(translateLatinCharacter("A"));
